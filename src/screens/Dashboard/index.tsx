@@ -157,7 +157,7 @@ export default function Dashboard() {
         >
           <View style={styles.modalContainer}>
             <View style={styles.modalContent}>
-              <Text style={styles.modalTitle}>Dar baixa no estoque</Text>
+              <Text style={styles.modalTitle}>Adicionar ao estoque</Text>
               <TextInput
                 style={styles.input}
                 placeholder="Quantidade a ser incrementada"
@@ -192,7 +192,7 @@ export default function Dashboard() {
       >
         <View style={styles.modalContainer}>
           <View style={styles.modalContent}>
-            <Text style={styles.modalTitle}>Adicionar ao estoque</Text>
+            <Text style={styles.modalTitle}>Dar baixa no estoque</Text>
             <TextInput
               style={styles.input}
               placeholder="Quantidade a ser decrementada"
